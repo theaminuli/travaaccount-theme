@@ -170,26 +170,6 @@ All settings apply globally via CSS custom properties, no code editing required.
 - PHPUnit tests for functions
 - Jest tests for blocks
 
-### 5. Content Management
-- Dynamic data sources for blocks
-- Query loop variations
-- Global styles interface
-- Template parts system
-- Block locking and permissions
-
-### 6. Accessibility Enhancements
-- Keyboard navigation improvements
-- Screen reader optimizations
-- Focus management
-- ARIA labels audit
-- Color contrast checker integration
-
-### 7. Internationalization
-- RTL language support
-- Translation management
-- Locale-specific formatting
-- Currency switching
-
 ## Dependencies
 
 **Required:**
