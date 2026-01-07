@@ -40,8 +40,6 @@ OR (for developers)
 ### Step 4: Add Content
 
 #### Using WordPress Blocks (Just Examples):
-- Use the **Cover** block for hero sections with background images
-- Use **Columns** block for service grids and multi-column layouts
 - Use **Testimonial Block** (custom) for client testimonials
 - Use **Group** blocks with background colors for CTA sections
 - Combine **Heading**, **Paragraph**, and **Button** blocks for content
@@ -215,7 +213,7 @@ Customize button appearance:
 The theme is mobile-first and responsive by default. Test on:
 - iPhone (375px)
 - iPad (768px)
-- Desktop (1200px+)
+- Desktop (1400px+)
 
 Mobile menu automatically activates below 768px width.
 
