@@ -1,0 +1,25 @@
+/*
+Theme Name: TravaAccount
+Theme URI: #
+Author: Aminul Islam
+Author URI: theaminul.com
+Description: A modern, Gutenberg-based WordPress theme for accounting and financial services. Features custom blocks, responsive design, and extensive branding customization options.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: travaaccount
+Tags: custom-colors, custom-logo, custom-menu, editor-style, featured-images, full-width-template, rtl-language-support, theme-options, threaded-comments, translation-ready, block-patterns, block-styles, wide-blocks
+
+TravaAccount is a modern WordPress theme built with Gutenberg blocks.
+It provides extensive customization options for branding including colors,
+typography, and layout settings, all manageable from the WordPress dashboard.
+*/
+
+/* 
+ * This file serves as the theme identifier for WordPress.
+ * Main styles are located in /assets/css/theme.css
+ * Block styles are in /assets/css/blocks.css
+ */

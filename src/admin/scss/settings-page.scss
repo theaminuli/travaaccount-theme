@@ -1,0 +1,75 @@
+/**
+ * TravaAccount Settings Page Styles
+ * 
+ * @package TravaAccount
+ */
+
+.travaaccount-settings {
+    max-width: 1200px;
+}
+
+.travaaccount-settings-tabs {
+    margin-top: 20px;
+}
+
+.settings-section {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: none;
+    
+    &.active {
+        display: block;
+    }
+    
+    h2 {
+        margin-top: 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+input[type="range"] {
+    width: 300px;
+    margin-right: 10px;
+}
+
+output {
+    display: inline-block;
+    min-width: 50px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="url"] {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    &::placeholder {
+        color: #999;
+    }
+}
+
+.settings-preview {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f0f0f1;
+    border-radius: 4px;
+}
+
+// ==================== ADMIN ====================
+#adminmenu .wp-submenu li.hide-if-no-customize {
+	display: none !important;
+}
+
+// Hide Theme File Editor menu item
+#adminmenu .wp-submenu li a[href="theme-editor.php"] {
+    display: none !important;
+}
+
+#adminmenu .wp-submenu li:has(a[href="theme-editor.php"]) {
+    display: none !important;
+}

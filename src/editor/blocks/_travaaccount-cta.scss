@@ -1,0 +1,156 @@
+.travaaccount-cta {
+	padding: 80px 0;
+
+	@media (max-width: 768px) {
+		padding: 60px 0;
+	}
+
+	@media (max-width: 480px) {
+		padding: 40px 0;
+	}
+
+	&-image-box {
+		position: relative;
+		max-width: var(--container-width);
+		padding: 0 20px;
+		margin: 0 auto;
+		overflow: hidden;
+
+		@media (max-width: 991px) {
+			margin: 0 20px;
+			border-radius: 20px;
+		}
+
+		@media (max-width: 768px) {
+			margin: 0 15px;
+			border-radius: 16px;
+		}
+
+		@media (max-width: 480px) {
+			margin: 0 10px;
+			border-radius: 12px;
+			height: 380px;
+		}
+
+		.wp-block-image {
+			border-radius: 24px;
+			margin: 0;
+			position: relative;
+
+			img {
+				width: 100%;
+				height: auto;
+				display: block;
+				border-radius: 24px;
+			}
+			@media (max-width: 480px) {
+				height: 295px;
+			}
+			&::after {
+				content: '';
+				position: absolute;
+				border-radius: 24px;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent 50%);
+				pointer-events: none;
+
+				@media (max-width: 991px) {
+					background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+				}
+			}
+		}
+
+		>.wp-block-group {
+			position: absolute;
+			top: 50%;
+			left: 60px;
+			transform: translateY(-50%);
+			max-width: 780px;
+			z-index: 1;
+			padding: 40px;
+			background: rgba(255, 255, 255, 0.12);
+			backdrop-filter: blur(20px);
+			-webkit-backdrop-filter: blur(20px);
+			border-radius: 20px;
+			border: 1px solid rgba(255, 255, 255, 0.2);
+
+			@media (max-width: 991px) {
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				max-width: 90%;
+				width: 90%;
+				padding: 32px;
+				text-align: center;
+			}
+
+			@media (max-width: 768px) {
+				padding: 28px 24px;
+				max-width: 85%;
+				width: 85%;
+				border-radius: 16px;
+			}
+
+			@media (max-width: 480px) {
+				padding: 24px 20px;
+				max-width: 90%;
+				width: 90%;
+				border-radius: 12px;
+			}
+		}
+
+		.wp-block-heading {
+			color: #ffffff;
+			font-family: var(--font-heading);
+			font-size: 36px;
+			font-weight: 700;
+			margin: 0 0 16px 0;
+			line-height: 1.2;
+
+			@media (max-width: 768px) {
+				font-size: 28px;
+				margin: 0 0 12px 0;
+			}
+
+			@media (max-width: 480px) {
+				font-size: 22px;
+				margin: 0 0 10px 0;
+			}
+		}
+
+		p {
+			color: #ffffff;
+			font-family: var(--font-body);
+			font-size: 16px;
+			line-height: 1.6;
+			margin: 0 0 24px 0;
+			opacity: 0.95;
+
+			@media (max-width: 768px) {
+				font-size: 15px;
+				margin: 0 0 20px 0;
+			}
+
+			@media (max-width: 480px) {
+				font-size: 14px;
+				margin: 0 0 16px 0;
+				line-height: 1.5;
+			}
+		}
+
+		.wp-block-buttons {
+			margin: 0;
+
+			@media (max-width: 991px) {
+				justify-content: center;
+			}
+		}
+
+		.wp-block-button {
+			margin: 0;
+		}
+	}
+}

@@ -1,0 +1,45 @@
+/* Reusable Button with Green Arrow */
+.travaaccount-button {
+	.wp-block-button__link {
+		color: #1a1a1a;
+		padding: 10px 15px 10px 25px;
+
+		background: rgba(255, 245, 245, 0.979);
+		border-radius: 50px;
+		backdrop-filter: blur(10px);
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		text-decoration: none;
+		display: inline-flex;
+		align-items: center;
+		gap: 12px;
+		transition: all 0.3s ease;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 1;
+	}
+
+	.wp-block-button__link::after {
+		content: url('../assets/icons/arrow.svg');
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 38px;
+    	height: 38px;
+		background: #a3d639;
+		border-radius: 50%;
+		font-size: 20px;
+		font-weight: bold;
+		color: #1a1a1a;
+		transition: transform 0.3s ease;
+	}
+
+	.wp-block-button__link:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	}
+
+	.wp-block-button__link:hover::after {
+		transform: translateX(4px);
+	}
+
+}

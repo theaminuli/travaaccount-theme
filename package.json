@@ -1,0 +1,39 @@
+{
+	"name": "travaaccount-theme",
+	"version": "1.0.0",
+	"description": "A modern Gutenberg-based WordPress theme for accounting services",
+	"author": "Aminul Islam",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress",
+		"theme",
+		"gutenberg",
+		"blocks",
+		"accounting"
+	],
+	"scripts": {
+		"start": "wp-scripts start --blocks-manifest",
+		"build": "wp-scripts build --blocks-manifest",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"format": "wp-scripts format",
+		"packages-update": "wp-scripts packages-update"
+	},
+		"devDependencies": {
+			"@wordpress/scripts": "^30.23.0",
+			"webpack-remove-empty-scripts": "^1.1.1"
+		},
+		"dependencies": {
+			"@wordpress/icons": "^11.3.0",
+			"clsx": "^2.1.1"
+		},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	],
+	"engines": {
+		"node": ">=16.0.0",
+		"npm": ">=8.0.0"
+	}
+}
