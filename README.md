@@ -1,5 +1,5 @@
  <img src="https://raw.githubusercontent.com/theaminuli/travaaccount-theme/refs/heads/main/screenshot.png" alt="TravaAccount Theme Banner">
- 
+
 # TravaAccount WordPress Theme
 
 A custom Gutenberg-based WordPress theme converted from Figma design.
@@ -143,34 +143,6 @@ All settings apply globally via CSS custom properties, no code editing required.
 - Safari (latest)
 - Edge (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
-
-## What Could Be Improved (Given More Time)
-
-### 1. Advanced Block Features
-- Block patterns library for quick page building
-- InnerBlocks support for nested layouts
-- Block variations for different styles
-- Live preview in customizer
-
-### 2. Performance Optimization
-- Critical CSS extraction
-- Image lazy loading with placeholders
-- SVG sprite system for icons
-- Asset minification and concatenation
-
-### 3. Additional Functionality
-- Custom post types for Services, Testimonials
-- Advanced Custom Fields integration
-- Block presets/templates
-- Import/export settings
-- Animation on scroll effects
-
-### 4. Developer Experience
-- Build process with webpack
-- SASS/SCSS preprocessing
-- Automatic version bumping
-- PHPUnit tests for functions
-- Jest tests for blocks
 
 ## Dependencies
 
