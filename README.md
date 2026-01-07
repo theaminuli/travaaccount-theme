@@ -1,3 +1,4 @@
+ <img src="https://raw.githubusercontent.com/theaminuli/travaaccount-theme/refs/heads/main/screenshot.png" alt="TravaAccount Theme Banner">
 # TravaAccount WordPress Theme
 
 A custom Gutenberg-based WordPress theme converted from Figma design.
