@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Include admin menu
-require_once get_template_directory() . '/include/admin-menu.php';
+require_once get_template_directory() . '/includes/admin-menu.php';
 
 /**
  * Renders the settings page HTML with tabbed interface.

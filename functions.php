@@ -65,10 +65,10 @@ add_action('after_setup_theme', 'travaaccount_setup');
 /**
  * Include Required Files
  */
-require_once TRAVAACCOUNT_THEME_TEMPLATES . '/include/enqueue-scripts.php';
-require_once TRAVAACCOUNT_THEME_TEMPLATES . '/include/block-registration.php';
-require_once TRAVAACCOUNT_THEME_TEMPLATES . '/include/register-settings.php';
-require_once TRAVAACCOUNT_THEME_TEMPLATES . '/include/branding-settings.php';
+require_once TRAVAACCOUNT_THEME_TEMPLATES . '/includes/enqueue-scripts.php';
+require_once TRAVAACCOUNT_THEME_TEMPLATES . '/includes/block-registration.php';
+require_once TRAVAACCOUNT_THEME_TEMPLATES . '/includes/register-settings.php';
+require_once TRAVAACCOUNT_THEME_TEMPLATES . '/includes/branding-settings.php';
 
 /**
  * Set Content Width
