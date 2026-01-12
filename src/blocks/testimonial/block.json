@@ -1,0 +1,93 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "travaaccount/testimonial",
+  "version": "1.0.0",
+  "title": "Testimonial",
+  "category": "travaaccount",
+  "icon": "format-quote",
+  "description": "Display client testimonials with image, quote, rating, and company info",
+  "keywords": ["testimonial", "review", "quote", "client", "feedback"],
+  "textdomain": "travaaccount",
+  "supports": {
+    "align": ["wide", "full"],
+    "anchor": true,
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "color": {
+      "background": true,
+      "text": true,
+      "link": true
+    }
+  },
+  "attributes": {
+    "testimonialText": {
+      "type": "string",
+      "default": "TravaAccounting has been instrumental in helping our business navigate complex tax regulations. Their expertise and attention to detail have saved us both time and money."
+    },
+    "clientName": {
+      "type": "string",
+      "default": "Oliver Davies"
+    },
+    "clientPosition": {
+      "type": "string",
+      "default": "CEO"
+    },
+    "clientCompany": {
+      "type": "string",
+      "default": "Strype"
+    },
+    "clientImage": {
+      "type": "object",
+      "default": {
+        "url": "",
+        "alt": "",
+        "id": 0
+      }
+    },
+    "rating": {
+      "type": "number",
+      "default": 5
+    },
+    "showRating": {
+      "type": "boolean",
+      "default": true
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "imagePosition": {
+      "type": "string",
+      "default": "left",
+      "enum": ["left", "top", "right"]
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#333333"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left",
+      "enum": ["left", "center", "right"]
+    }
+  },
+  "example": {
+    "attributes": {
+      "testimonialText": "Working with this team has been amazing! They helped us streamline our finances.",
+      "clientName": "John Smith",
+      "clientPosition": "Founder",
+      "clientCompany": "Tech Startup",
+      "rating": 5
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.scss",
+  "style": "file:./style.scss"
+}
